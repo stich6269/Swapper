@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic, Tahoma;
+    background: #60395f;
+}
+
+#header{
+    height: 80px;
+    width: 100%;
+    color: rgba(255,255,255,.9);
+    line-height: 80px;
+    background-color: #60395F;
+    text-align: center;
+    font-size: 2.2em;
+    border-bottom: 1px solid #4e244c;
+}
+
+#header_button{
+    height: 20px;
+    width: 100%;
+    background-color: #50304E;
+    border-bottom: 1px solid    rgba(198, 198, 198, 0.4);
+}
+
+#sapper{
+    margin: 1% 0 0 37%;
+    background-color: #E3D9DF;
+    padding: 20px 2px 20px 10px;
+    border-radius: 5px;
+}
+
+#control ul{
+    margin: 0;
+    padding: 0;
+}
+
+#control li{
+    margin: 0 5px 10px 0;
+    display: inline-block;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+#time{
+    margin: 0 0 10px 0;
+    padding: 5px 5px 5px 90px;
+    box-sizing: border-box;
+    width: 40%;
+    color: white;
+    background-color: #583351;
+    background-image: url("http://deco-light.com.ua/image/clock.png");
+    background-position: center left;
+}
+
+#mine{
+    margin: 0;
+    padding: 5px 5px 5px 90px;
+    box-sizing: border-box;
+    width: 40%;
+    color: white;
+    background-color: #583351;
+    background-image: url("http://deco-light.com.ua/image/mine.png");
+    background-position: center left;
+}
+
+#new_game{
+    padding: 5px;
+    box-sizing: border-box;
+    color: #D75669;
+    width: 15%;
+    background-color: #D75669;
+    border: none;
+    background-image: url(http://deco-light.com.ua/image/new_game.png);
+    cursor: pointer;
+    background-position: center;
+}
+
+.click{
+    border-radius: 5px;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #a6a6a6;
+}
+
+.no-click{
+    border: 1px solid #a6a6a6;
+    border-radius: 5px;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(180, 180, 180, 0.67);
+
+}
+
+.mine{
+    border-radius: 5px;
+    background-color: #d10004;
+    border: 1px solid #a6a6a6;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bomb{
+     border-radius: 5px;
+     border: 1px solid #a6a6a6;
+     display: table-cell;
+     padding: 0;
+     background-position: center;
+     color: transparent;
+     background-image: url("http://deco-light.com.ua/image/boomb.png");
+     background-repeat: no-repeat;
+     background-size: 80%;
+ }
+
+
+.find_bomb{
+    padding: 0;
+    border-radius: 5px;
+    border: 1px solid #a6a6a6;
+    display: table-cell;
+    background-position: center;
+    color: transparent;
+    background-image: url("http://deco-light.com.ua/image/find_boomb.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
