@@ -24,7 +24,7 @@ body{
 }
 
 #sapper{
-    margin: 1% 0 0 37%;
+    margin: 1% auto;
     background-color: #E3D9DF;
     padding: 20px 2px 20px 10px;
     border-radius: 5px;
@@ -106,16 +106,16 @@ body{
 }
 
 .bomb{
-     border-radius: 5px;
-     border: 1px solid #a6a6a6;
-     display: table-cell;
-     padding: 0;
-     background-position: center;
-     color: transparent;
-     background-image: url("../images/boomb.png");
-     background-repeat: no-repeat;
-     background-size: 80%;
- }
+    border-radius: 5px;
+    border: 1px solid #a6a6a6;
+    display: table-cell;
+    padding: 0;
+    background-position: center;
+    color: transparent;
+    background-image: url("../images/boomb.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
 
 
 .find_bomb{
